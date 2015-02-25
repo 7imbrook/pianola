@@ -1,4 +1,4 @@
-body {
+div#main {
   margin-top: 2.5%;
   margin-left: 5%;
   margin-right: 5%;
@@ -8,8 +8,29 @@ table {
   width: 700px;
 }
 
+td {
+  width: 350px;
+}
+
 h1.title {
-  font-size: 50px;
+  font-size: 3.5em;
+}
+
+i.fa-circle {
+  font-size: 0.5em;
+  cursor: pointer;
+  cursor: hand;
+  color: rgb(255,200,117);
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+i.fa-circle.selected {
+  color: rgb(255,163,24);
+}
+
+i.fa-circle:hover {
+  color: rgb(255,163,24);
 }
 
 .no-break {
